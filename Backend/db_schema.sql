@@ -1,5 +1,3 @@
--- MoMo SMS Data Analysis Database Schema
--- This schema is designed to store and analyze mobile money SMS transaction data.
      CREATE TABLE transactions (
          id INTEGER PRIMARY KEY AUTOINCREMENT,
          transaction_id VARCHAR(50) UNIQUE,
